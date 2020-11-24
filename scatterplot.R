@@ -7,6 +7,4 @@ install.packages("car")
 library(car)
 scatterplot(mpg ~ hp | cyl, data = mtcars, xlab = "horsepower", 
             ylab = "MPG",main="Regression HP vs MPG")
-remove.packages("car")
-library(car)
-remove.packages("car","car")
+
